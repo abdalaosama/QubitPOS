@@ -11,7 +11,15 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "var(--primary)",
+        secondary: "var(--secondary)",
       },
+      borderRadius: {
+        DEFAULT: "var(--border-radius)",
+      },
+      backgroundImage: {
+        "bg-gradient": "linear-gradient(to right, var(--bg-gradient-start), var(--bg-gradient-end))",
+      }
     },
   },
   plugins: [],
